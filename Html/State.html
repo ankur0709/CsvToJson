@@ -43,7 +43,7 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        d3.json("../json/Json2.json", function (error, data) {
+        d3.json("../json/Statewise.json", function (error, data) {
 
             data.forEach(function (d) {
                 d.state = d.state;

@@ -10,11 +10,11 @@ let UnClassified1=[]; let array3=[];
 const readline = require('readline')   //read line by line
 const fs = require('fs')  //imports the file system
 const rl = readline.createInterface({    //rl is a variable 
-	input: fs.createReadStream('../csv/save.csv','utf-8') //reads file chunk by chunk
+	input: fs.createReadStream('../csv/Census.csv','utf-8') //reads file chunk by chunk
 })
-let myWriteStream =  fs.createWriteStream('../json/Json1.json')//writestream for first json
-let myWriteStream2 = fs.createWriteStream('../json/Json2.json')//writestream for second json
-let myWriteStream3 = fs.createWriteStream('../json/Json3.json')//writestream for third json
+let myWriteStream =  fs.createWriteStream('../json/Agewise.json')//writestream for first json
+let myWriteStream2 = fs.createWriteStream('../json/Statewise.json')//writestream for second json
+let myWriteStream3 = fs.createWriteStream('../json/Categorywise.json')//writestream for third json
 rl.on('line', (line) => {
 	count++;
 	if(count!=1)//Does not takes the heading line
