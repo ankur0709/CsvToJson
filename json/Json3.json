@@ -1,0 +1,42 @@
+[
+          {
+                    "Category": "LiterateWithoutEducation",
+                    "Persons": 34957448
+          },
+          {
+                    "Category": "BelowPrimary",
+                    "Persons": 145909823
+          },
+          {
+                    "Category": "Primary",
+                    "Persons": 182884924
+          },
+          {
+                    "Category": "Middle",
+                    "Persons": 132236885
+          },
+          {
+                    "Category": "MatricOrSecondary",
+                    "Persons": 104527770
+          },
+          {
+                    "Category": "HigherSecondaryOrUniversity",
+                    "Persons": 77166156
+          },
+          {
+                    "Category": "NonTechnical",
+                    "Persons": 1067508
+          },
+          {
+                    "Category": "Technical",
+                    "Persons": 7187897
+          },
+          {
+                    "Category": "GraduateAndAbove",
+                    "Persons": 67635207
+          },
+          {
+                    "Category": "UnClassified",
+                    "Persons": 2997961
+          }
+]
