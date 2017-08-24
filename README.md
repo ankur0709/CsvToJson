@@ -8,7 +8,7 @@ Prerequisites: Your system must have latest version of node js installed.
 
 Technologies used: JavaScript
 
-Description: save.csv is a file that contains data in form of comma seperated values. The data from the file is received in asynchronous manner, using readStream. 
+Description: Census.csv is a file that contains data in form of comma seperated values. The data from the file is received in asynchronous manner, using readStream. 
 The index.js ia a javaScript file that creates three JSON files,for plotting graphs of:
 
 a)Age wise literate persons in all the states.
@@ -20,7 +20,7 @@ c) Education category wise all india combined data.
 2 State.html
 3. Category.html
 
-Given : save.csv (size : 677.6 kB)
+Given : Census.csv (size : 677.6 kB)
  Logic: 1. Convert csv to Required JSONs 
         2. Convert JSONs to required D3s 
 
